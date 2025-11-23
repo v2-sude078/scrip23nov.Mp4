@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> XXXX </title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .box, .video-page {
+        background: white;
+        padding: 20px 25px;
+        width: 320px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+
+    .video-link {
+        background: #1b1f23;
+        color: white;
+        padding: 12px;
+        border-radius: 6px;
+        display: block;
+        margin: 15px 0;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 12px 14px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 48%;
+        color: white;
+    }
+    .ok { background: #1dbf00; }
+    .exit { background: #cc0000; }
+
+    .btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    /* LP2 VIDEO STYLE */
+    .video-page {
+        display: none;
+    }
+
+    video {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 12px;
+    }
+</style>
+</head>
+<body>
+
+<!-- LP1 (Halaman Awal) -->
+<div class="box" id="lp1">
+
+    <!-- BANNER ATAS -->
+    <div style="margin-bottom:15px;">
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'cf902c3f231d99e4ed78299963127fdb',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//buffetaccommodating.com/cf902c3f231d99e4ed78299963127fdb/invoke.js"></script>
+    </div>
+
+    <h2>Click Link to Watch</h2>
+
+    <a href="#" class="video-link" onclick="openVideo()">
+        https://cdn.videy.co/NiJsR0x01.mp4
+    </a>
+
+    <div class="btn-wrapper">
+        <button class="btn ok" onclick="openVideo()">I AM 18+</button>
+        <button class="btn exit" onclick="openAds()">EXIT</button>
+    </div>
+</div>
+
+
+<!-- LP2 (halaman video di dalam LP yang sama) -->
+<div class="video-page" id="lp2">
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'cf902c3f231d99e4ed78299963127fdb',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//buffetaccommodating.com/cf902c3f231d99e4ed78299963127fdb/invoke.js"></script>
+    <video controls autoplay>
+        <source src="https://cdn.videy.co/NiJsR0x01.mp4" type="video/mp4">
+    </video>
+
+    <button class="btn ok" style="width:100%;" onclick="openAds()">Continue</button>
+</div>
+
+
+<script>
+function openVideo() {
+    document.getElementById("lp1").style.display = "none";
+    document.getElementById("lp2").style.display = "block";
+}
+
+function openAds() {
+    window.location.href = "https://buffetaccommodating.com/y9rxdg88qd?key=6debfdd8219a42daa6f13a745034f39d";
+}
+</script>
+
+</body>
+</html>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4992245,4,511,95,18,00000000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
